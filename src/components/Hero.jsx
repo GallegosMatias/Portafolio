@@ -14,7 +14,7 @@ const Hero = () => {
 
         <img
           src={heroImage}
-          class="hero-image"
+          className="hero-image"
           width="500"
           height="290"
           alt="Irungaray el Grande"

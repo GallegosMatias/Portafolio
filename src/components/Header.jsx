@@ -1,27 +1,29 @@
 import React from 'react';
 
+import headerLogo from '../assets/headerLogo.png'
+
 import './styles/Header.css';
 
 const Header = () => {
   return (
-    <header class="header">
-      <div class="header__container">
-        <p class="header__logo">Irungaray</p>
+    <header className="header">
+      <div className="header__container">
+        <img src={headerLogo} alt="Irungaray"/>
 
-        <nav class="header__nav">
+        <nav className="header__nav">
           <ol>
             <li>
-              <a class="header__nav--link" href="#portafolio">
+              <a className="header__nav--link" href="#portafolio">
                 Portafolio
               </a>
             </li>
             <li>
-              <a class="header__nav--link" href="#experiencia">
+              <a className="header__nav--link" href="#experiencia">
                 Experiencia
               </a>
             </li>
             <li>
-              <a class="header__nav--link" href="#contacto">
+              <a className="header__nav--link" href="#contacto">
                 Trabaja conmigo
               </a>
             </li>
