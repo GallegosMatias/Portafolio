@@ -1,3 +1,37 @@
+* {
+  scroll-behavior: smooth;
+  
+}
+
+body {
+  font-family: "Source Sans Pro", sans-serif;
+  margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Lato", sans-serif;
+  font-weight: normal;
+}
+
 h1 {
-  text-align: center;
+  font-size: 40px;
+  line-height: 1.5em;
+  letter-spacing: -0.2px;
+  color: white;
+}
+
+h1 strong {
+  color: silver;
+}
+
+h2 {
+  color: silver;
+  text-transform: uppercase;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+img {
+    border-radius: 5px;
 }

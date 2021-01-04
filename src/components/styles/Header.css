@@ -1,0 +1,52 @@
+.header {
+  background-color: #1b2127;
+  color: white;
+  height: 200px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header__logo {
+  font-family: Tattoo;
+  font-size: 50px;
+  display: flex;
+  justify-content: l;
+  text-transform: lowercase;
+}
+
+.header__container {
+  width: 1500px;
+  margin: 0 auto;
+  display: inherit;
+  justify-content: space-between;
+  align-items: inherit;
+  height: inherit;
+  flex-wrap: inherit;
+  border-bottom: 1px solid white;
+}
+
+.header__nav ol {
+  height: inherit;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  list-style: none;
+}
+
+.header__nav li{
+  padding-left: 20px;
+  font-size: 23px;
+}
+
+.header__nav li:hover{
+  text-decoration: underline;
+}
+
+.header a {
+  color: white;
+  text-decoration: none;
+  height: inherit;
+}
