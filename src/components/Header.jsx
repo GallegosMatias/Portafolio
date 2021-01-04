@@ -1,6 +1,6 @@
 import React from 'react';
 
-import headerLogo from '../assets/headerLogo.png'
+import headerLogo from '../assets/headerLogo.png';
 
 import './styles/Header.css';
 
@@ -8,7 +8,7 @@ const Header = () => {
   return (
     <header className="header">
       <div className="header__container">
-        <img src={headerLogo} alt="Irungaray"/>
+        <img src={headerLogo} alt="Irungaray" />
 
         <nav className="header__nav">
           <ol>

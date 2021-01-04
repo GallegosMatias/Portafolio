@@ -1,0 +1,68 @@
+.portfolio {
+  background: #626262;
+  padding: 1px;
+}
+
+.portfolio-list-title {
+  width: 100vw;
+  margin: 0 auto;
+  padding: 25px 0;
+  display: block;
+}
+
+.portfolio__container {
+  max-width: 1500px;
+  width: 100%;
+  flex: 1;
+  margin: 0 auto;
+}
+
+.portfolio__project {
+  max-width: 1500px;
+  border-top: 10px solid silver;
+  border-right: 10px solid silver;
+  border-left: 10px solid silver;
+  border-bottom: 10px solid silver;
+  border-radius: 7px;
+  padding: 10px;
+  margin-bottom: 10px;
+  background: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.project-details {
+  width: 500px;
+}
+
+.project-title {
+  font-size: 35px;
+}
+
+.project-course {
+  margin: -10px 0;
+  font-size: 20px;
+}
+
+.project-date {
+  font-size: 20px;
+}
+
+.project-url {
+  font-size: 30px;
+}
+
+.project-description {
+  font-size: 25px;
+}
+
+.project-imageContainer {
+  width: 600px;
+  margin: 0;
+}
+
+.project-image {
+  width: 100%;
+}
