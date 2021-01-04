@@ -1,0 +1,17 @@
+.hero {
+  height: 320px;
+  background-color: #1b2127;
+}
+
+.hero__container {
+  max-width: 1500px;
+  height: 300px;
+  width: 100%;
+  padding-top: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10 px 0;
+  margin: 0 auto;
+}
