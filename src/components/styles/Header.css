@@ -36,12 +36,12 @@
   list-style: none;
 }
 
-.header__nav li{
+.header__nav li {
   padding-left: 20px;
   font-size: 23px;
 }
 
-.header__nav li:hover{
+.header__nav li:hover {
   text-decoration: underline;
 }
 

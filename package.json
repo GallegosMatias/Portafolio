@@ -1,12 +1,12 @@
 {
-  "name": "react-boilerplate",
+  "name": "portfolio",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "build": "webpack --mode production",
     "start": "webpack serve",
-    "format": "prettier --write {*js,src/**/*.{js,jsx}}",
+    "format": "prettier --write {*js,src/**/*.{js,jsx,css}}",
     "lint": "eslint src/ --fix",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
