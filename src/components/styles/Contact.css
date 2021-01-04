@@ -1,0 +1,74 @@
+.contact {
+  background-color: #1b2127;
+  color: white;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.contact__container {
+  max-width: 1500px;
+  width: 100%;
+  flex: 1;
+  margin: 0 auto;
+  display: inherit;
+  justify-content: space-between;
+  align-items: inherit;
+  height: inherit;
+  flex-wrap: inherit;
+}
+
+.form-email input {
+  border-color: gray;
+  border-style: solid;
+  border-radius: 5px;
+  padding: 15px 20px 15px 50px;
+  /* background-image: url(../images/envelope.svg); */
+  background-size: 20px 20px;
+  background-repeat: no-repeat;
+  background-position-y: 12px;
+  background-position-x: 10px;
+}
+
+.form-email button {
+  background: transparent;
+  color: white;
+  padding: 5px 30px;
+  border-radius: 5px;
+  font-size: 20px;
+}
+
+.social-link {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  margin: 0 10px;
+}
+
+.social-link.facebook img{
+  width: 50px;
+  height: 50px;
+}
+
+.social-link.instagram img {
+  width: 50px;
+  height: 50px;
+}
+
+.social-link.github img {
+  width: 50px;
+  height: 50px;
+}
+
+.social-link.linkedin img {
+  width: 50px;
+  height: 50px;
+}
+
+.juntos {
+  font-size: 25px;
+  padding-bottom: 10px;
+  margin: 0;
+}
