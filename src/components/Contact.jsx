@@ -13,8 +13,9 @@ const Contact = () => {
       <div class="contact__container">
           <form action="/suscripcion/" class="form-email">
               <h3 class="juntos">¿Creamos algo juntos?</h3>
-              <input type="text" placeholder="Déjame tu email" id="email" />
-              <button>Enviar</button>
+              {/* <input type="text" placeholder="Déjame tu email" id="email" />
+              <button>Enviar</button> */}
+              <h3>Contactame por cualquiera de mis redes!</h3>
           </form>
           <div class="social">
               <a href="https://www.facebook.com/Siempr3.Fuerte" class="social-link facebook" target="_blank">

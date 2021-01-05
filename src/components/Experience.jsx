@@ -30,11 +30,11 @@ const Experience = () => {
             <div className="experience-details">
               <h3 className="experience-title">Administracion de empresas</h3>
               <p className="experience-description">
-                Como se indica en "Industrias Irungaray", administro activamente
+                Como se indica en "Industrias Irungaray", administro
                 2 empresas fundadas por mí, que funcionan en inmuebles de mi
-                propiedad y suman un total de 3 empleados. Dichas empresas me
+                propiedad y que, en su momento, sumaron un total de 3 empleados. Dichas empresas me
                 hicieron ganar experiencia, más allá de los propios trabajos, en
-                contabilidad, liderazgo, pensamiento estratégico, administración
+                contabilidad, liderazgo, trabajo en equipo, trato interpersonal, pensamiento estratégico, administración
                 del tiempo, finanzas y economía.
               </p>
               <a
