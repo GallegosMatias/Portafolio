@@ -1,8 +1,21 @@
 import React from 'react';
+import axios from 'axios';
 
 import './styles/Project.css';
 
-const Project = () => {
+const Project =  () => {
+  // const API = 'localhost:1337/projects';
+
+  // try {
+  //   const response = await axios.get(API)
+
+  //   console.log(response)
+  // } catch (error) {
+  //   console.log(error)
+  // }
+
+
+
   return (
     <section className="portfolio">
       <div className="portfolio__container">
