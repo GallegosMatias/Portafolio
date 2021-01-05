@@ -1,5 +1,10 @@
 import React from 'react';
 
+import experience from "../assets/experience/experiencia.jpg";
+import weld from "../assets/experience/weld.jpg";
+import platzi from "../assets/experience/platzi.png";
+import visual from"../assets/experience/visual.jpg";
+
 import './styles/Experience.css'
 
 const Experience = () => {
@@ -15,7 +20,7 @@ const Experience = () => {
             <figure className="experience-imageContainer">
               <img
                 className="experience-image"
-                src="images/experiencia.jpg"
+                src={weld}
                 alt="El gran Irungaray, 2"
                 width="100"
                 height="70"
@@ -46,7 +51,7 @@ const Experience = () => {
             <figure className="experience-imageContainer">
               <img
                 className="experience-image"
-                src="images/platzi.png"
+                src={platzi}
                 alt="Platzi"
                 width="100"
                 height="70"
@@ -82,7 +87,7 @@ const Experience = () => {
             <figure className="experience-imageContainer">
               <img
                 className="experience-image"
-                src="images/visual.jpg"
+                src={visual}
                 alt="Cameras"
                 width="100"
                 height="70"
