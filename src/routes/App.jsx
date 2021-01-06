@@ -6,7 +6,7 @@ import OtherProject from '../containers/OtherProject';
 
 const App = () => {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/Portafolio">
       <Switch>
         <Route exact path="/" component={Home} />
         <Route exact path="/others" component={OtherProject} />
