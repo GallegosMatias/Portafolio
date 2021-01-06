@@ -1,10 +1,34 @@
 import React from 'react';
 import axios from 'axios';
 
+
 import './styles/Project.css';
 
 const Project = ({ project }) => {
   // const API = 'http://localhost:1337';
+
+  const repo = project.url;
+  const deploy = project.urlTitle;
+
+
+
+  const isDeployed = () => {
+    if (deploy !== null) {
+      return (
+        <p className="project-url">
+          <small>
+            <strong>Podés ver el Despliegue en</strong>{' '}
+            <a
+              href={deploy}
+              target="_blank"
+            >
+            este Link
+            </a>
+          </small>
+        </p>
+      )
+    }
+  };
 
   return (
     <article className="portfolio__project">
@@ -21,15 +45,16 @@ const Project = ({ project }) => {
         </p>
         <p className="project-url">
           <small>
-            <strong>Podes verlo en:</strong>{' '}
+            <strong>Podés ver el Repositorio en</strong>{' '}
             <a
-              href={project.url}
+              href={repo}
               target="_blank"
             >
-             {project.urlTitle}
+             este Link
             </a>
           </small>
         </p>
+        {isDeployed()}
       </div>
 
       <figure className="project-imageContainer">

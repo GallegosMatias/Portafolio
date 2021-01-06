@@ -15,8 +15,6 @@ const useInitialState = () => {
     setProjects(response.data);
   }, []);
 
-  // console.log(projects)
-
   return {
     projects,
     state
