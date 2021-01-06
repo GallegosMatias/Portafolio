@@ -82,67 +82,148 @@ const OtherProject = () => {
         </figure>
       </article>
 
+      <article class="portfolio__project">
+        <div class="project-details">
+          <h3 class="project-title">Face Detection</h3>
+          <h6 class="project-course">JavaScript</h6>
+          <p class="project-date">
+            <small>
+              <strong>Fecha: 21/05/20 </strong>
+            </small>
+          </p>
+          <p class="project-description">
+            Sistema de reconocimiento facial basado en face-api.js. Detecta
+            emociones, edad y sexo.{' '}
+          </p>
+          <p class="project-url">
+            <small>
+              <strong>Podes verlo en:</strong>{' '}
+              <a
+                href="https://irungaray.github.io/Face-Detection/"
+                target="_blank"
+              >
+                Face Detection GH Pages
+              </a>
+            </small>
+          </p>
+        </div>
 
-<article class="portfolio__project">
+        <figure class="project-imageContainer">
+          <img
+            class="project-image"
+            src={faceDetection}
+            alt="Face Detection"
+            width="600"
+            height="300"
+          />
+        </figure>
+      </article>
 
-<div class="project-details">
-    <h3 class="project-title">Face Detection</h3>
-<h6 class="project-course">JavaScript</h6>
-<p class="project-date"><small><strong>Fecha: 21/05/20 </strong></small></p>
-<p class="project-description">Sistema de reconocimiento facial basado en face-api.js. Detecta emociones, edad y sexo. </p>
-<p class="project-url"><small><strong>Podes verlo en:</strong> <a href="https://irungaray.github.io/Face-Detection/" target="_blank">Face Detection GH Pages</a></small></p>
-</div>
+      <article class="portfolio__project">
+        <div class="project-details">
+          <h3 class="project-title">Metalúrgica Irungaray</h3>
+          <h6 class="project-course">HTML / CSS</h6>
+          <p class="project-date">
+            <small>
+              <strong>Fecha: 13/10/19 </strong>
+            </small>
+          </p>
+          <p class="project-description">
+            Página oficial de Metalúrgica Irungaray{' '}
+          </p>
+          <p class="project-url">
+            <small>
+              <strong>Podes verlo en:</strong>{' '}
+              <a href="gallegosmatias.github.io/metalurgica/" target="_blank">
+                Metalúrgica Irungaray GH Pages
+              </a>
+            </small>
+          </p>
+        </div>
 
-<figure class="project-imageContainer">
-    <img class="project-image" src={faceDetection} alt="Face Detection" width="600" height="300" />
-</figure>
-</article>
+        <figure class="project-imageContainer">
+          <img
+            class="project-image"
+            src={metalurgica}
+            alt="Metalúrgica Irungaray"
+            width="600"
+            height="300"
+          />
+        </figure>
+      </article>
 
-<article class="portfolio__project">
+      <article class="portfolio__project">
+        <div class="project-details">
+          <h3 class="project-title">Calculadora de Porcentaje</h3>
+          <h6 class="project-course">HTML / CSS / JS</h6>
+          <p class="project-date">
+            <small>
+              <strong>Fecha: 13/10/19 </strong>
+            </small>
+          </p>
+          <p class="project-description">
+            Simple calculadora de porcentaje hecha en JavaScript.{' '}
+          </p>
+          <p class="project-url">
+            <small>
+              <strong>Podes verlo en:</strong>{' '}
+              <a
+                href="https://irungaray.github.io/Calculadora-de-Porcentaje/"
+                target="_blank"
+              >
+                Calculadora % GH Pages
+              </a>
+            </small>
+          </p>
+        </div>
 
-<div class="project-details">
-    <h3 class="project-title">Metalúrgica Irungaray</h3>
-<h6 class="project-course">HTML / CSS</h6>
-<p class="project-date"><small><strong>Fecha: 13/10/19 </strong></small></p>
-<p class="project-description">Página oficial de Metalúrgica Irungaray </p>
-<p class="project-url"><small><strong>Podes verlo en:</strong> <a href="gallegosmatias.github.io/metalurgica/" target="_blank">Metalúrgica Irungaray GH Pages</a></small></p>
-</div>
+        <figure class="project-imageContainer">
+          <img
+            class="project-image"
+            src={calculadora}
+            alt="Calculadora"
+            width="600"
+            height="300"
+          />
+        </figure>
+      </article>
 
-<figure class="project-imageContainer">
-    <img class="project-image" src={metalurgica} alt="Metalúrgica Irungaray" width="600" height="300" />
-</figure>
-</article>
+      <article class="portfolio__project">
+        <div class="project-details">
+          <h3 class="project-title">Rick & Morty Characters</h3>
+          <h6 class="project-course">HTML / CSS / JS</h6>
+          <p class="project-date">
+            <small>
+              <strong>Fecha: 12/04/20 </strong>
+            </small>
+          </p>
+          <p class="project-description">
+            Single Page Application with API of R&M Characters. Made with
+            Javascript Vanilla{' '}
+          </p>
+          <p class="project-url">
+            <small>
+              <strong>Podes verlo en:</strong>{' '}
+              <a
+                href="https://irungaray.github.io/Rick-Morty-Characters/"
+                target="_blank"
+              >
+                R&M Characters GH Pages
+              </a>
+            </small>
+          </p>
+        </div>
 
-<article class="portfolio__project">
-
-<div class="project-details">
-    <h3 class="project-title">Calculadora de Porcentaje</h3>
-<h6 class="project-course">HTML / CSS / JS</h6>
-<p class="project-date"><small><strong>Fecha: 13/10/19 </strong></small></p>
-<p class="project-description">Simple calculadora de porcentaje hecha en JavaScript. </p>
-<p class="project-url"><small><strong>Podes verlo en:</strong> <a href="https://irungaray.github.io/Calculadora-de-Porcentaje/" target="_blank">Calculadora % GH Pages</a></small></p>
-</div>
-
-<figure class="project-imageContainer">
-    <img class="project-image" src={calculadora} alt="Calculadora" width="600" height="300" />
-</figure>
-</article>
-
-<article class="portfolio__project">
-
-<div class="project-details">
-    <h3 class="project-title">Rick & Morty Characters</h3>
-<h6 class="project-course">HTML / CSS / JS</h6>
-<p class="project-date"><small><strong>Fecha: 12/04/20 </strong></small></p>
-<p class="project-description">Single Page Application with API of R&M Characters. Made with Javascript Vanilla </p>
-<p class="project-url"><small><strong>Podes verlo en:</strong> <a href="https://irungaray.github.io/Rick-Morty-Characters/" target="_blank">R&M Characters GH Pages</a></small></p>
-</div>
-
-<figure class="project-imageContainer">
-    <img class="project-image" src={rym} alt="Rick-Morty-Characters" width="600" height="300" />
-</figure>
-</article>
-
+        <figure class="project-imageContainer">
+          <img
+            class="project-image"
+            src={rym}
+            alt="Rick-Morty-Characters"
+            width="600"
+            height="300"
+          />
+        </figure>
+      </article>
     </>
   );
 };
