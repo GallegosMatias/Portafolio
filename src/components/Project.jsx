@@ -1,5 +1,5 @@
 import React from 'react';
-import axios from 'axios';
+import { Link } from 'react-router-dom';
 
 import './styles/Project.css';
 
@@ -33,12 +33,7 @@ const Project = ({ project }) => {
         <p className="project-url">
           <small>
             <strong>Podés hacerlo en</strong>{' '}
-            <a
-              href="facebook.com"
-              target="_blank"
-            >
-            este Link
-            </a>
+            <Link to="/others">este Link</Link>
           </small>
         </p>
       )

@@ -4,7 +4,6 @@ import AppContext from '../context/AppContext';
 import useInitialState from '../hooks/useInitialState';
 
 import Loader from './Loader';
-import OtherProject from './OtherProject';
 import Project from './Project';
 
 import './styles/Project.css';

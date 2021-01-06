@@ -1,6 +1,6 @@
 import React from 'react';
 
-const OtherProject = () => {
+const OtherProjects = () => {
   return (
     <article className="portfolio__project">
       <div className="project-details">
@@ -37,4 +37,4 @@ const OtherProject = () => {
   );
 };
 
-export default OtherProject;
+export default OtherProjects;

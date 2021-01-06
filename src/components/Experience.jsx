@@ -37,13 +37,6 @@ const Experience = () => {
                 contabilidad, liderazgo, trabajo en equipo, trato interpersonal, pensamiento estratégico, administración
                 del tiempo, finanzas y economía.
               </p>
-              <a
-                className="experience-url"
-                href="https://platzi.com/@irungaray-agustin/"
-                target="_blank"
-              >
-                Ver Bitácora
-              </a>
             </div>
           </article>
 

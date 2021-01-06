@@ -1,11 +1,11 @@
 import React from 'react';
 
-import Header from './Header';
-import Hero from './Hero';
-import Projects from './Projects';
-import Experience from './Experience';
-import Contact from './Contact';
-import Footer from './Footer';
+import Header from '../components/Header';
+import Hero from '../components/Hero';
+import Projects from '../components/Projects';
+import Experience from '../components/Experience';
+import Contact from '../components/Contact';
+import Footer from '../components/Footer';
 
 import './styles/App.css';
 import useInitialState from '../hooks/useInitialState';
