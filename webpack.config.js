@@ -53,9 +53,6 @@ module.exports = {
       },
     ],
   },
-  devServer: {
-    historyApiFallback: true,
-  },
   plugins: [
     new HtmlWebpackPlugin({
       template: './public/index.html',
@@ -69,5 +66,6 @@ module.exports = {
     contentBase: path.join(__dirname, 'dist'),
     compress: true,
     port: 9060,
+    historyApiFallback: true,
   },
 };
