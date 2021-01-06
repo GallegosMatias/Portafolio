@@ -177,6 +177,7 @@ const OtherProject = () => {
           </p>
         </div>
 
+
         <figure class="project-imageContainer">
           <img
             class="project-image"
