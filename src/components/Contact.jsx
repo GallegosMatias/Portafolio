@@ -9,28 +9,28 @@ import './styles/Contact.css';
 
 const Contact = () => {
   return (
-    <section id="contacto" class="contact">
-      <div class="contact__container">
-          <form action="/suscripcion/" class="form-email">
-              <h3 class="juntos">¿Creamos algo juntos?</h3>
+    <section id="contacto" className="contact">
+      <div className="contact__container">
+          <form action="/suscripcion/" className="form-email">
+              <h3 className="juntos">¿Creamos algo juntos?</h3>
               {/* <input type="text" placeholder="Déjame tu email" id="email" />
               <button>Enviar</button> */}
               <h3>Contactame por cualquiera de mis redes!</h3>
           </form>
-          <div class="social">
-              <a href="https://www.facebook.com/Siempr3.Fuerte" class="social-link facebook" target="_blank">
+          <div className="social">
+              <a href="https://www.facebook.com/Siempr3.Fuerte" className="social-link facebook" target="_blank">
                 <img src={fbIco} alt="Facebook"/>
               </a>
 
-              <a href="https://www.instagram.com/irunga.ray/" class="social-link instagram" target="_blank">
+              <a href="https://www.instagram.com/irunga.ray/" className="social-link instagram" target="_blank">
                 <img src={igIco} alt="Instagram"/>
               </a>
 
-              <a href="https://github.com/Irungaray" class="social-link github" target="_blank">
+              <a href="https://github.com/Irungaray" className="social-link github" target="_blank">
                 <img src={ghIco} alt="GitHub"/>
               </a>
 
-              <a href="https://www.linkedin.com/in/lionel-irungaray-1967001a4/" class="social-link linkedin" target="_blank">
+              <a href="https://www.linkedin.com/in/lionel-irungaray-1967001a4/" className="social-link linkedin" target="_blank">
                 <img src={liIco} alt="LinkedIn"/>
               </a>
           </div>

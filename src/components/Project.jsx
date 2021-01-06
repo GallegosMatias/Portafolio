@@ -4,7 +4,7 @@ import axios from 'axios';
 import './styles/Project.css';
 
 const Project = ({ project }) => {
-  const API = 'http://localhost:1337';
+  // const API = 'http://localhost:1337';
 
   return (
     <article className="portfolio__project">
@@ -35,7 +35,8 @@ const Project = ({ project }) => {
       <figure className="project-imageContainer">
         <img
           className="project-image"
-          src={`${API}${project.image.url}`}
+          // DEVELOPMENT: src={`${API}${project.image.url}`}
+          src={project.image.url}
           alt="Industrias Irungaray"
           width="600"
           height="300"
