@@ -9,7 +9,8 @@
     "start": "webpack serve",
     "format": "prettier --write {*js,src/**/*.{js,jsx,css}}",
     "lint": "eslint src/ --fix",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "pretty": "prettier --write \"./**/*.{js,jsx,json,css}\""
   },
   "author": "Irungaray",
   "license": "ISC",
@@ -24,7 +25,6 @@
     "eslint-plugin-jsx-a11y": "^6.4.1",
     "eslint-plugin-prettier": "^3.3.0",
     "eslint-plugin-react": "^7.22.0",
-    "prettier": "^2.2.1",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-router-dom": "^5.2.0"
@@ -42,6 +42,7 @@
     "husky": "^4.3.6",
     "image-webpack-loader": "^7.0.1",
     "mini-css-extract-plugin": "^1.3.3",
+    "prettier": "^2.2.1",
     "webpack": "^5.11.1",
     "webpack-cli": "^4.3.1",
     "webpack-dev-server": "^3.11.1"

@@ -20,12 +20,13 @@ const Projects = () => {
       <div className="portfolio__container">
         <h2 className="portfolio-list-title">Portafolio</h2>
         <div>
-          {isLoading
-            ? <Loader />
-            : projects.map((project) => (
+          {isLoading ? (
+            <Loader />
+          ) : (
+            projects.map((project) => (
               <Project key={project.id} project={project} />
             ))
-          }
+          )}
         </div>
       </div>
     </section>

@@ -1,11 +1,11 @@
 import React from 'react';
 
-import experience from "../assets/experience/experiencia.jpg";
-import weld from "../assets/experience/weld.jpg";
-import platzi from "../assets/experience/platzi.png";
-import visual from"../assets/experience/visual.jpg";
+import experience from '../assets/experience/experiencia.jpg';
+import weld from '../assets/experience/weld.jpg';
+import platzi from '../assets/experience/platzi.png';
+import visual from '../assets/experience/visual.jpg';
 
-import './styles/Experience.css'
+import './styles/Experience.css';
 
 const Experience = () => {
   return (
@@ -30,12 +30,13 @@ const Experience = () => {
             <div className="experience-details">
               <h3 className="experience-title">Administracion de empresas</h3>
               <p className="experience-description">
-                Como se indica en "Industrias Irungaray", administro
-                2 empresas fundadas por mí, que funcionan en inmuebles de mi
-                propiedad y que, en su momento, sumaron un total de 3 empleados. Dichas empresas me
-                hicieron ganar experiencia, más allá de los propios trabajos, en
-                contabilidad, liderazgo, trabajo en equipo, trato interpersonal, pensamiento estratégico, administración
-                del tiempo, finanzas y economía.
+                Como se indica en "Industrias Irungaray", administro 2 empresas
+                fundadas por mí, que funcionan en inmuebles de mi propiedad y
+                que, en su momento, sumaron un total de 3 empleados. Dichas
+                empresas me hicieron ganar experiencia, más allá de los propios
+                trabajos, en contabilidad, liderazgo, trabajo en equipo, trato
+                interpersonal, pensamiento estratégico, administración del
+                tiempo, finanzas y economía.
               </p>
             </div>
           </article>

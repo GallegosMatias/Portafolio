@@ -15,7 +15,7 @@ const App = () => {
     <>
       <Header />
       <Hero />
-      <Projects projects={useInitialState.projects}/>
+      <Projects projects={useInitialState.projects} />
       <Experience />
       <Contact />
       <Footer />

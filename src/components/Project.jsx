@@ -15,15 +15,12 @@ const Project = ({ project }) => {
         <p className="project-url">
           <small>
             <strong>Podés ver el Despliegue en</strong>{' '}
-            <a
-              href={deploy}
-              target="_blank"
-            >
-            este Link
+            <a href={deploy} target="_blank">
+              este Link
             </a>
           </small>
         </p>
-      )
+      );
     }
   };
 
@@ -36,9 +33,9 @@ const Project = ({ project }) => {
             <Link to="/others">este Link</Link>
           </small>
         </p>
-      )
+      );
     }
-  }
+  };
 
   return (
     <article className="portfolio__project">
@@ -47,24 +44,21 @@ const Project = ({ project }) => {
         <h6 className="project-course">{project.course}</h6>
         <p className="project-date">
           <small>
-            <strong>Fecha: </strong> {project.date || "2019-2021"}
+            <strong>Fecha: </strong> {project.date || '2019-2021'}
           </small>
         </p>
-        <p className="project-description">
-          {project.description}
-        </p>
+        <p className="project-description">{project.description}</p>
         <p className="project-url">
-          {repo == null ? " " :
-          <small>
-            <strong>Podés ver el Repositorio en</strong>{' '}
-              <a
-              href={repo}
-              target="_blank"
-              >
-              este Link
+          {repo == null ? (
+            ' '
+          ) : (
+            <small>
+              <strong>Podés ver el Repositorio en</strong>{' '}
+              <a href={repo} target="_blank">
+                este Link
               </a>
-          </small>
-          }
+            </small>
+          )}
         </p>
         {isDeployed()}
         {isOtherProject()}
