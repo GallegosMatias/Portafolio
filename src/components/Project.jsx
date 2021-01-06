@@ -1,7 +1,6 @@
 import React from 'react';
 import axios from 'axios';
 
-
 import './styles/Project.css';
 
 const Project = ({ project }) => {
@@ -9,8 +8,6 @@ const Project = ({ project }) => {
 
   const repo = project.url;
   const deploy = project.urlTitle;
-
-
 
   const isDeployed = () => {
     if (deploy !== null) {
@@ -30,6 +27,24 @@ const Project = ({ project }) => {
     }
   };
 
+  const isOtherProject = () => {
+    if (project.date == null) {
+      return (
+        <p className="project-url">
+          <small>
+            <strong>Podés hacerlo en</strong>{' '}
+            <a
+              href="facebook.com"
+              target="_blank"
+            >
+            este Link
+            </a>
+          </small>
+        </p>
+      )
+    }
+  }
+
   return (
     <article className="portfolio__project">
       <div className="project-details">
@@ -37,24 +52,27 @@ const Project = ({ project }) => {
         <h6 className="project-course">{project.course}</h6>
         <p className="project-date">
           <small>
-            <strong>Fecha: </strong> {project.date}
+            <strong>Fecha: </strong> {project.date || "2019-2021"}
           </small>
         </p>
         <p className="project-description">
           {project.description}
         </p>
         <p className="project-url">
+          {repo == null ? " " :
           <small>
             <strong>Podés ver el Repositorio en</strong>{' '}
-            <a
+              <a
               href={repo}
               target="_blank"
-            >
-             este Link
-            </a>
+              >
+              este Link
+              </a>
           </small>
+          }
         </p>
         {isDeployed()}
+        {isOtherProject()}
       </div>
 
       <figure className="project-imageContainer">
