@@ -25,7 +25,7 @@ const OtherProjects = () => {
         <div className="portfolio__container">
           <OtherProject />
 
-          <button>
+          <button className="blueButton">
             <Link to="/">Volver</Link>
           </button>
         </div>

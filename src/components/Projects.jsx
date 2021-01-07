@@ -11,12 +11,10 @@ import './styles/Project.css';
 const Projects = () => {
   const { projects } = useInitialState();
 
-  console.log(projects);
-
   const isLoading = projects.length == 0;
 
   return (
-    <section className="portfolio">
+    <section id="portafolio" className="portfolio">
       <div className="portfolio__container">
         <h2 className="portfolio-list-title">Portafolio</h2>
         <div>

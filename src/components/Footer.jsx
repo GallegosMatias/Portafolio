@@ -12,7 +12,7 @@ const Footer = () => {
         <p>Diseñado por Lionel Irungaray</p>
       </div>
       <div>
-        <p>13/04/2020</p>
+        <p>06/01/2021</p>
       </div>
     </footer>
   );

@@ -7,6 +7,8 @@
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
+  /* overflow-y: hidden; */
+  
 }
 
 .header__logo {
@@ -18,7 +20,7 @@
 }
 
 .header__container {
-  width: 1500px;
+  width: 80%;
   margin: 0 auto;
   display: inherit;
   justify-content: space-between;

@@ -1,5 +1,7 @@
 import React from 'react';
 
+import Modal from './Modal';
+
 import heroImage from '../assets/hero.jpg';
 
 import './styles/Hero.css';
@@ -9,18 +11,13 @@ const Hero = () => {
     <div className="hero">
       <div className="hero__container">
         <h1 className="hero__container--h1">
-          Hola! Soy <strong>Lionel Irungaray</strong> <br /> desarrollador{' '}
-          <strong>Frontend</strong> <br /> con <strong>pasión</strong> por la
-          tecnología y la enseñanza.
+          Hola! Soy <strong>Lionel Irungaray.</strong> <br />
+          Desarrollador{' '} <strong>Frontend</strong> <br />
+          <strong>MERN </strong>Stack <br />
+          <strong>Apasionado</strong> por la tecnología y el conocimiento.
         </h1>
 
-        <img
-          src={heroImage}
-          className="hero-image"
-          width="500"
-          height="290"
-          alt="Irungaray el Grande"
-        />
+        <Modal />
       </div>
     </div>
   );

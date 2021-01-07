@@ -9,7 +9,7 @@
   justify-content: center;
 }
 
-button {
+.blueButton {
   box-shadow: 3px 4px 0px 0px #1564ad;
   background: linear-gradient(to bottom, #79bbff 5%, #378de5 100%);
   background-color: #79bbff;
@@ -27,12 +27,12 @@ button {
   text-shadow: 0px 1px 0px #528ecc;
 }
 
-button:hover {
+.blueButton:hover {
   background: linear-gradient(to bottom, #378de5 5%, #79bbff 100%);
   background-color: #378de5;
 }
 
-button:active {
+.blueButton:active {
   position: relative;
   top: 1px;
 }

@@ -7,7 +7,7 @@ module.exports = {
   output: {
     path: path.resolve(__dirname, 'build'),
     filename: 'bundle.js',
-    publicPath: '/',
+    publicPath: './', // Watch thisq
   },
   resolve: {
     extensions: ['.js', '.jsx'],
@@ -55,6 +55,7 @@ module.exports = {
   },
   plugins: [
     new HtmlWebpackPlugin({
+      favicon: './public/icon.svg',
       template: './public/index.html',
       filename: 'index.html',
     }),
