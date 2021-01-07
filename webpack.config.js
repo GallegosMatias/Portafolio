@@ -7,7 +7,7 @@ module.exports = {
   output: {
     path: path.resolve(__dirname, 'build'),
     filename: 'bundle.js',
-    publicPath: './', // Watch thisq
+    publicPath: './', // Watch this
   },
   resolve: {
     extensions: ['.js', '.jsx'],

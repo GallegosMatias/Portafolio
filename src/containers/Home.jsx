@@ -7,12 +7,16 @@ import Experience from '../components/Experience';
 import Contact from '../components/Contact';
 import Footer from '../components/Footer';
 
-import './styles/App.css';
+import ScrollToTopOnMount from '../utils/ScrollToTopOnMount';
+
 import useInitialState from '../hooks/useInitialState';
+
+import './styles/App.css';
 
 const App = () => {
   return (
     <>
+      <ScrollToTopOnMount />
       <Header />
       <Hero />
       <Projects projects={useInitialState.projects} />

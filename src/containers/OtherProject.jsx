@@ -1,25 +1,19 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import { Link } from 'react-router-dom';
 
 import OtherProject from '../components/OtherProject';
 import Footer from '../components/Footer';
+
+import ScrollToTopOnMount from '../utils/ScrollToTopOnMount';
 
 import headerLogo from '../assets/headerLogo.png';
 
 import './styles/OtherProject.css';
 
 const OtherProjects = () => {
-  const ScrollToTopOnMount = () => {
-    useEffect(() => {
-      window.scrollTo(0, 0);
-    }, []);
-
-    return null;
-  }
-
   return (
     <>
-      {ScrollToTopOnMount()}
+      <ScrollToTopOnMount />
       <div className="otherProjectsHeader">
         <Link to="/">
           <img src={headerLogo} alt="Irungaray" />
