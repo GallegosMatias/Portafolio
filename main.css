@@ -7,6 +7,8 @@
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
+  /* overflow-y: hidden; */
+  
 }
 
 .header__logo {
@@ -18,7 +20,7 @@
 }
 
 .header__container {
-  width: 1500px;
+  width: 80%;
   margin: 0 auto;
   display: inherit;
   justify-content: space-between;
@@ -58,7 +60,7 @@
 
 .hero__container {
   max-width: 1500px;
-  height: 300px;
+  height:fit-content;
   width: 100%;
   padding-top: 10px;
   display: flex;
@@ -69,6 +71,9 @@
   margin: 0 auto;
 }
 
+.hero__image {
+  cursor: pointer;
+}
 .lds-grid {
   display: inline-block;
   position: relative;
@@ -365,6 +370,7 @@
 
 * {
   scroll-behavior: smooth;
+
 }
 
 body {
@@ -416,7 +422,7 @@ img {
   justify-content: center;
 }
 
-button {
+.blueButton {
   box-shadow: 3px 4px 0px 0px #1564ad;
   background: linear-gradient(to bottom, #79bbff 5%, #378de5 100%);
   background-color: #79bbff;
@@ -434,12 +440,12 @@ button {
   text-shadow: 0px 1px 0px #528ecc;
 }
 
-button:hover {
+.blueButton:hover {
   background: linear-gradient(to bottom, #378de5 5%, #79bbff 100%);
   background-color: #378de5;
 }
 
-button:active {
+.blueButton:active {
   position: relative;
   top: 1px;
 }
