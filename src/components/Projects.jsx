@@ -17,7 +17,7 @@ const Projects = () => {
     <section id="portafolio" className="portfolio">
       <div className="portfolio__container">
         <h2 className="portfolio-list-title">Portafolio</h2>
-        {/* <div>
+        <div>
           {isLoading ? (
             <Loader />
           ) : (
@@ -25,7 +25,7 @@ const Projects = () => {
               <Project key={project.id} project={project} />
             ))
           )}
-        </div> */}
+        </div>
       </div>
     </section>
   );
