@@ -47,32 +47,3 @@
   text-decoration: none;
   height: inherit;
 }
-
-@media only screen and (max-width: 1377px) {
-  .header__container {
-    width: 100%;
-    align-items: center;
-    justify-content: center;
-  }
-  .header__nav {
-    display: flex;
-
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    text-align: center;
-    align-items: center;
-    padding-left: 0;
-  }
-
-  .header__nav li {
-    padding-left: 0px;
-    padding: 10px;
-    text-align: center;
-    justify-content: center;
-  }
-
-  .header__container img {
-    width: 100%;
-  }
-}

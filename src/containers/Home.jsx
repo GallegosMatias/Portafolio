@@ -12,6 +12,7 @@ import ScrollToTopOnMount from '../utils/ScrollToTopOnMount';
 import useInitialState from '../hooks/useInitialState';
 
 import './styles/App.css';
+import './styles/Responsive.css';
 
 const App = () => {
   return (

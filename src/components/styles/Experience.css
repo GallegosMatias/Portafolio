@@ -55,14 +55,3 @@
 .experience-imageContainer {
   margin: 0;
 }
-
-@media only screen and (max-width: 600px) {
-  .experience__container {
-    /* margin: 10px; */
-    width: 100%;
-  }
-
-  .experience-details {
-    margin: 0;
-  }
-}

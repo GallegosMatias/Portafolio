@@ -20,20 +20,3 @@
 .hero__image {
   cursor: pointer;
 }
-
-@media only screen and (max-width: 1377px) {
-  .hero__container {
-    justify-content: center;
-    text-align: center;
-  }
-
-  .hero__image {
-    width: 30%;
-  }
-}
-
-@media only screen and (max-width: 600px) {
-  .hero__image {
-    width: 100%;
-  }
-}
