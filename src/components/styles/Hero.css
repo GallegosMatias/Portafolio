@@ -1,21 +1,39 @@
 .hero {
   height: 320px;
   background-color: #1b2127;
+  height: 100%;
+
 }
 
 .hero__container {
-  max-width: 1500px;
-  height:fit-content;
-  width: 100%;
-  padding-top: 10px;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
   padding: 10 px 0;
   margin: 0 auto;
+  max-width: 1500px;
+  width: 100%;
+  padding-top: 10px;
 }
 
 .hero__image {
   cursor: pointer;
+}
+
+@media only screen and (max-width: 1377px) {
+  .hero__container {
+    justify-content: center;
+    text-align: center;
+  }
+
+  .hero__image {
+    width: 30%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .hero__image {
+    width: 100%;
+  }
 }
