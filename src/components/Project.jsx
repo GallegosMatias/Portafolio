@@ -16,7 +16,7 @@ const Project = ({ project }) => {
           <small>
             <strong>Podés ver el Despliegue en</strong>{' '}
             <a href={deploy} target="_blank">
-              este Link
+              Este Link
             </a>
           </small>
         </p>
@@ -30,7 +30,7 @@ const Project = ({ project }) => {
         <p className="project-url">
           <small>
             <strong>Podés hacerlo en</strong>{' '}
-            <Link to="/others">este Link</Link>
+            <Link to="/others">Este Link</Link>
           </small>
         </p>
       );
@@ -55,7 +55,7 @@ const Project = ({ project }) => {
             <small>
               <strong>Podés ver el Repositorio en</strong>{' '}
               <a href={repo} target="_blank">
-                este Link
+                Este Link
               </a>
             </small>
           )}

@@ -15,12 +15,13 @@ const Contact = () => {
           <h3 className="juntos">¿Creamos algo juntos?</h3>
           {/* <input type="text" placeholder="Déjame tu email" id="email" />
               <button>Enviar</button> */}
-          <h3>Contactame por cualquiera de mis redes!</h3>
+          <h3 className="contactMe">Contactame por cualquiera de mis redes!</h3>
         </form>
+
         <div className="social">
           <a
             href="https://www.facebook.com/Siempr3.Fuerte"
-            className="social-link facebook"
+            className="facebook"
             target="_blank"
           >
             <img src={fbIco} alt="Facebook" />
@@ -28,7 +29,7 @@ const Contact = () => {
 
           <a
             href="https://www.instagram.com/irunga.ray/"
-            className="social-link instagram"
+            className="instagram"
             target="_blank"
           >
             <img src={igIco} alt="Instagram" />
@@ -36,7 +37,7 @@ const Contact = () => {
 
           <a
             href="https://github.com/Irungaray"
-            className="social-link github"
+            className="github"
             target="_blank"
           >
             <img src={ghIco} alt="GitHub" />
@@ -44,7 +45,7 @@ const Contact = () => {
 
           <a
             href="https://www.linkedin.com/in/lionel-irungaray-1967001a4/"
-            className="social-link linkedin"
+            className="linkedin"
             target="_blank"
           >
             <img src={liIco} alt="LinkedIn" />

@@ -7,7 +7,6 @@ import { useSpring, animated } from 'react-spring/web.cjs'; // web.cjs is requir
 
 import heroImage from '../assets/hero.jpg';
 
-
 const useStyles = makeStyles((theme) => ({
   modal: {
     display: 'flex',
@@ -69,14 +68,14 @@ export default function SpringModal() {
     <div>
       {/* <button type="button" onClick={handleOpen} id="modalButton">
       </button> */}
-        <img
-            onClick={handleOpen}
-            src={heroImage}
-            className="hero__image"
-            width="500"
-            height="290"
-            alt="Irungaray el Grande"
-          />
+      <img
+        onClick={handleOpen}
+        src={heroImage}
+        className="hero__image"
+        width="500"
+        height="290"
+        alt="Irungaray el Grande"
+      />
 
       <Modal
         aria-labelledby="spring-modal-title"
@@ -92,14 +91,14 @@ export default function SpringModal() {
       >
         <Fade in={open}>
           <div className={classes.paper}>
-          <img
-            src={heroImage}
-            className="hero__image"
-            width="1400"
-            height="790"
-            alt="Irungaray el Grande"
-          />
-          <h2>Arroyo La Salamanca</h2>
+            <img
+              src={heroImage}
+              className="hero__image"
+              width="1400"
+              height="790"
+              alt="Irungaray el Grande"
+            />
+            <h2>Arroyo La Salamanca</h2>
           </div>
         </Fade>
       </Modal>

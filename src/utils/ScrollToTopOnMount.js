@@ -6,6 +6,6 @@ const ScrollToTopOnMount = () => {
   }, []);
 
   return null;
-}
+};
 
 export default ScrollToTopOnMount;
